@@ -533,4 +533,46 @@ h7 {
     font-size: 23px;
 }
 
+input{
+    padding: 8px;
+    border: 1px solid #9569a9;
+}
+input[type="text"],
+input[type=email] {
+    border: 2px solid e8b4c8;
+    border-radius:  10px;
+    background-color: fff9fb;
+    transition: 0.2s;
 
+}
+
+input [type="text"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-color: #c98ba3;
+    box-shadow: 0 0 8px rgba(201,139,163,0.4);
+}
+
+input[type="text"]:focus:invalid,
+input[type="email"]:focus:invalid {
+    border: 2px solid #e57373;
+    background-color:  #fff0f0;
+    box-shadow: 0 0 10 px rgba (229, 115, 115, 0.4);
+}
+
+.contact-form {
+    background-color: #fffdf7;
+    border: 2px solid #d9b8a5;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #e8c6d2;
+    border-radius: 10px;
+    background-color: #fffafa;
+}
